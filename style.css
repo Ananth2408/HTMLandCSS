@@ -1,0 +1,276 @@
+html {
+    width: 100%;
+    background-color: grey;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #F1F0F6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F0F6;
+    display: inline-flex;
+}
+
+.left-container {
+    width: 20%;
+    background-color: white;
+    height: 100%;
+    padding: 2%;
+}
+
+.profile {
+    width: 100%;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.name {
+    padding-top: 0%;
+    padding-left: 20%;
+    font-size: medium;
+    width: 65%;
+    height: 5%;
+}
+
+.profession {
+    height: 5%;
+    font-size: medium;
+    padding-left: 19%;
+}
+
+.icons {
+    width: 100%;
+    height: 5%;
+}
+
+.flexicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexicon {
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+i {
+    border-radius: 50%;
+    text-align: center;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+
+.personaldetails {
+    padding-top: 6%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    justify-content: space-between;
+
+}
+
+.heading {
+    background-color: #FFB400;
+    font-weight: 700;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic {
+    margin-top: 10%;
+    font-weight: 700;
+}
+
+.language,
+.values {
+    padding-top: 5%;
+    font-size: small;
+}
+
+hr {
+    margin-top: 8%;
+    margin-bottom: 0;
+}
+
+.progress {
+    background-color: white;
+    border: 1px solid #FFB400;
+}
+
+.percentage {
+    height: 5px;
+    background-color: #FFB400;
+    width: 100%;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    gap: 10px;
+}
+
+.flex-box i {
+    color: #FFB400;
+    font-size: small;
+}
+
+.skill {
+    padding-top: 2%;
+    font-size: small;
+}
+
+.resume {
+    margin-top: 10%;
+    border: 1px solid #FFB400;
+    background-color: #FFB400;
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.rightcontainer {
+    padding-left: 3%;
+    background-color: #F1F0F6;
+    width: 75%;
+}
+
+.topcontainer {
+    width: 100%;
+    height: 380px;
+    display: inline-block;
+    background-color: white;
+}
+
+.content {
+    width: 60%;
+    height: 280px;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.top-content p {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 4%;
+}
+
+p span {
+    color: #FFB400;
+}
+
+.middle-content {
+    width: 60%;
+}
+
+.bottom-content {
+    width: 20%;
+    border: 1px solid #FFB400;
+    background-color: #FFB400;
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.middlecontainer {
+    text-align: center;
+    padding-right: 3%;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12%;
+}
+
+.headexplination {
+    margin-top: 2%;
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 7%;
+}
+
+.educationcontent {
+    width: 94%;
+    height: 405px;
+    padding: 0% 3%;
+    background-color: white;
+    display: inline-block;
+   
+}
+
+.educationcontent hr {
+    margin-top: 2%;
+}
+
+.top-header {
+    display: flex;
+    gap: 25%;
+    margin-top: 5%;
+}
+.course {
+    font-weight: 700;
+}
+.certificate {
+    font-weight: 700;
+}
+.top-content {
+    display: flex;
+    gap:25%;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.course-time {
+    display: inline-flex;
+    gap: 38px;
+}
+
+.year {
+    font-size: x-small;
+    background-color: #FFB400;
+    width: 80px;
+    font-weight: 700;
+    height: 14px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.workcontent {
+    width: 94%;
+    height: 350px;
+    padding: 0% 3%;
+    background-color: white;
+    display: inline-block;  
+}
+.footer {
+    height: 30px;
+}
